@@ -1,0 +1,213 @@
+.news{
+    padding-top: 70px;
+    &-row{
+
+    }
+
+    &-cards{
+        display: flex;
+        flex-wrap: wrap;
+        padding-top: 40px;
+        gap: 24px;
+    }
+
+    &-title{
+        font-family:$main-font;;
+font-size: 39px;
+font-weight: 600;
+line-height: 46.54px;
+text-align: left;
+
+    }
+
+    &-card__one{
+        width: 338px;
+        height: 459px;
+        left: -1px;
+        gap: 0px;
+        opacity: 0px;
+        background-color: #F9F8F6;
+        border-radius: 16px;
+
+
+
+
+        &:hover{
+            border: 1px solid #ff8541;
+            background-color: $black-color;
+            color: $white-color;
+
+            @include trn();
+        }
+
+
+       
+        
+    }
+
+    &-card__two{
+        width: 338px;
+        height: 459px;
+        left: -1px;
+        gap: 0px;
+        opacity: 0px;
+        background-color: #F9F8F6;
+        border-radius: 20px;
+
+
+        &:hover{
+            border: 1px solid #ff8541;
+            background-color: $black-color;
+            color: $white-color;
+
+            @include trn();
+        }
+
+    }
+
+    &-card__three{
+        width:  338px;
+        height: 459px;
+        left: -1px;
+        gap: 0px;
+        opacity: 0px;
+        background-color: #F9F8F6;
+        border-radius: 20px;
+
+
+        &:hover{
+            border: 1px solid #ff8541;
+            background-color: $black-color;
+            color: $white-color;
+
+            @include trn();
+        }
+
+    }
+
+    &-card__four{
+        width:  338px;
+        height: 459px;
+        left: -1px;
+        gap: 0px;
+        opacity: 0px;
+        background-color: #F9F8F6;
+        border-radius: 20px;
+
+        &:hover{
+            border: 1px solid #ff8541;
+            background-color: $black-color;
+            color: $white-color;
+
+            @include trn();
+        }
+
+    }
+}
+
+.card__one__title{
+    font-family:$main-font;
+font-size: 21px;
+font-weight: 400;
+line-height: 25.06px;
+text-align: left;
+padding-top: 24px;
+padding-left: 24px;
+
+
+
+}
+.card-one__subtilte{
+    font-family:$main-font;
+font-size: 16px;
+font-weight: 400;
+line-height: 22px;
+text-align: left;
+padding-top: 9px;
+padding-left: 24px;
+
+color: #6A6866;
+
+
+}
+
+.card__two__title{
+    font-family:$main-font;
+font-size: 21px;
+font-weight: 400;
+line-height: 25.06px;
+text-align: left;
+padding-top: 24px;
+padding-left: 24px;
+
+
+
+}
+.card-two__subtilte{
+    font-family:$main-font;
+font-size: 16px;
+font-weight: 400;
+line-height: 22px;
+text-align: left;
+padding-top: 9px;
+padding-left: 24px;
+
+color: #6A6866;
+
+}
+
+
+.card__three__title{
+    font-family:$main-font;
+font-size: 21px;
+font-weight: 400;
+line-height: 25.06px;
+text-align: left;
+padding-top: 24px;
+padding-left: 24px;
+
+
+
+}
+.card-three__subtilte{
+    font-family:$main-font;
+font-size: 16px;
+font-weight: 400;
+line-height: 22px;
+text-align: left;
+padding-top: 9px;
+padding-left: 24px;
+
+color: #6A6866;
+
+}
+
+
+.card__four__title{
+    font-family:$main-font;
+font-size: 21px;
+font-weight: 400;
+line-height: 25.06px;
+text-align: left;
+padding-top: 24px;
+padding-left: 24px;
+
+
+
+}
+.card-four__subtilte{
+    font-family:$main-font;
+font-size: 16px;
+font-weight: 400;
+line-height: 22px;
+text-align: left;
+padding-top: 9px;
+padding-left: 24px;
+
+color: #6A6866;
+
+}
+
+
+
+

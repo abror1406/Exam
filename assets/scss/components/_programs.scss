@@ -1,0 +1,244 @@
+.programs {
+    padding-top: 70px;
+
+    &-top {
+        @include flex(center, space-between);
+    }
+
+    &__title {
+        font-family:$main-font;
+        font-weight: 600;
+        font-size: 39px;
+        color: #000;
+    }
+
+    &__orenge {
+        color: #ff8541;
+    }
+
+    &__button {
+        border: 1px solid #555351;
+        border-radius: 8px;
+        padding: 18px 36px;
+        width: 141px;
+        height: 55px;
+        background: #fff;
+
+        &:hover {
+            background-color: #ff8541;
+            color: $white-color;
+
+            @include trn();
+
+        }
+
+    }
+
+    &-cards{
+        display: flex;
+        flex-wrap: wrap;
+        padding-top: 40px;
+        gap: 24px;
+
+        
+    }
+
+    &-content{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    &-icon__title{
+        padding-top: 12px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+    }
+
+
+
+    &-card__one {
+        width: 337px;
+        height: 260px;
+        border-radius: 16px;
+        background: linear-gradient(180deg, rgba(0, 0, 0, 0.7) 0%, rgba(0, 0, 0, 0.7) 100%), url(../../../images/programs/program-image.one.png);
+        display: flex;
+        justify-content: flex-end;
+        flex-direction: column;
+        padding: 0 24px 24px 24px;
+
+        &:hover{
+            border: 2px solid #ff8541;
+            @include trn();
+
+        
+        }
+    }
+
+    &-card__two {
+        width: 337px;
+        height: 260px;
+        border-radius: 16px;
+        background: linear-gradient(180deg, rgba(0, 0, 0, 0.7) 0%, rgba(0, 0, 0, 0.7) 100%), url(../../../images/programs/program-image.two.png);
+        display: flex;
+        justify-content: flex-end;
+        flex-direction: column;
+        padding: 0 24px 24px 24px;
+
+        &:hover{
+            border: 2px solid #ff8541;
+            @include trn();
+
+        
+        }
+    }
+
+    &-card__three {
+        width: 337px;
+        height: 260px;
+        border-radius: 16px;
+        background: linear-gradient(180deg, rgba(0, 0, 0, 0.7) 0%, rgba(0, 0, 0, 0.7) 100%), url(../../../images/programs/program-image.three.png);
+        display: flex;
+        justify-content: flex-end;
+        flex-direction: column;
+        padding: 0 24px 24px 24px;
+
+        &:hover{
+            border: 2px solid #ff8541;
+            @include trn();
+
+        
+        }
+    }
+
+    &-card__four {
+        width: 337px;
+        height: 260px;
+        border-radius: 16px;
+        background: linear-gradient(180deg, rgba(0, 0, 0, 0.7) 0%, rgba(0, 0, 0, 0.7) 100%), url(../../../images/programs/program-image.four.png);
+        display: flex;
+        justify-content: flex-end;
+        flex-direction: column;
+        padding: 0 24px 24px 24px;
+
+        &:hover{
+            border: 2px solid #ff8541;
+            @include trn();
+
+        
+        }
+    }
+
+    &-card__five {
+        width: 337px;
+        height: 260px;
+        border-radius: 16px;
+        background: linear-gradient(180deg, rgba(0, 0, 0, 0.7) 0%, rgba(0, 0, 0, 0.7) 100%), url(../../../images/programs/program-image.five.png);
+        display: flex;
+        justify-content: flex-end;
+        flex-direction: column;
+        padding: 0 24px 24px 24px;
+
+        &:hover{
+            border: 2px solid #ff8541;
+            @include trn();
+
+        
+        }
+    }
+
+    &-card__six {
+        width: 337px;
+        height: 260px;
+        border-radius: 16px;
+        background: linear-gradient(180deg, rgba(0, 0, 0, 0.7) 0%, rgba(0, 0, 0, 0.7) 100%), url(../../../images/programs/program-image.six.png);
+        display: flex;
+        justify-content: flex-end;
+        flex-direction: column;
+        padding: 0 24px 24px 24px;
+
+        &:hover{
+            border: 2px solid #ff8541;
+            @include trn();
+
+        
+        }
+    }
+
+    &-card__seven {
+        width: 337px;
+        height: 260px;
+        border-radius: 16px;
+        background: linear-gradient(180deg, rgba(0, 0, 0, 0.7) 0%, rgba(0, 0, 0, 0.7) 100%), url(../../../images/programs/program-image.seven.png);
+        display: flex;
+        justify-content: flex-end;
+        flex-direction: column;
+        padding: 0 24px 24px 24px;
+
+        &:hover{
+            border: 2px solid #ff8541;
+            @include trn();
+
+        
+        }
+    }
+
+    &-card__eight{
+        width: 337px;
+        height: 260px;
+        border-radius: 16px;
+        background: linear-gradient(180deg, rgba(0, 0, 0, 0.7) 0%, rgba(0, 0, 0, 0.7) 100%), url(../../../images/programs/program-image.eight.png);
+        display: flex;
+        justify-content: flex-end;
+        flex-direction: column;
+        padding: 0 24px 24px 24px;
+
+        &:hover{
+            border: 2px solid #ff8541; 
+            @include trn();
+
+        
+        }
+    }
+
+    
+   
+    
+}
+
+._title{
+   font-family:$main-font;
+font-size: 16px;
+font-weight: 600;
+line-height: 19.09px;
+text-align: left;
+color: $white-color;
+
+}
+
+.-text{
+   font-family:$main-font;
+font-size: 16px;
+font-weight: 300;
+line-height: 19.09px;
+text-align: left;
+color: $white-color;
+padding-left: 5px;
+
+
+}
+
+
+.content-text{
+   font-family:$main-font;
+font-size: 16px;
+font-weight: 300;
+line-height: 19.09px;
+text-align: left;
+color: $white-color;
+padding-top: 11px;
+}
+
+

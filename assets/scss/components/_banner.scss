@@ -1,0 +1,62 @@
+.banner {
+    padding-top: 90px;
+
+
+    &-content {
+        display: flex;
+        align-items: center;
+        padding-bottom: 84px;
+
+        // justify-content: flex-end;
+        // flex-direction: column;
+    }
+
+
+    &-row {
+        width: 1420px;
+        height: 716px;
+        background-image: url(../../../images/banner/banner.bg.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        display: flex;
+        justify-content: flex-end;
+        flex-direction: column;
+    
+
+    }
+
+    &__title {
+        font-family:$main-font;
+        font-weight: 600;
+        font-size: 64px;
+        line-height: 125%;
+        color: #fff;
+        padding-left: 80px;
+        padding-bottom: 30px;
+    }
+
+    &__subtitle {
+        font-family:$main-font;
+        font-weight: 300;
+        font-size: 25px;
+        line-height: 110%;
+        color: #fff;
+        padding-left: 80px;
+    }
+
+    &-button {
+        padding-left: 25px;
+
+        & svg:hover {
+            border-radius: 100%;
+            background-color: #ff8541;
+
+            @include trn();
+        }
+
+    }
+
+
+
+
+}
